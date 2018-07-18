@@ -1,9 +1,9 @@
 ---
-name: " Module Title (Module Code) - New Submission"
+name: " New Module Discussion "
 about: Discussion for adding new module
 
 ---
-
+## Module Title (Module Code)
 ### Module Websites
 | Lecturer(s)  | Website |  
 | ------------- | ------------- |
