@@ -2,7 +2,7 @@
 Unofficial, student created content for those taking modules provided by the 
 Department of Mathematics in Trinity College Dublin, and related modules. 
 
-Before contributing direct dictations of notes or your own solutions to examples, 
+Before contributing direct transcriptions of notes or your own solutions to examples, 
 homework or exams, please contact your lecturer for permission, and forward 
 confirmation of permission to submissions@mathsoc.ie
 
