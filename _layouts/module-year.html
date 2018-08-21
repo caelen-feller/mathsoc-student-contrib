@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include {{ page.head | default:"head/head.html" }} %}
+    <body>
+        {% include {{ page.header | default:"header/header.html" }} %}
+
+        <section class="main-content">
+            <h1>{{page.title}}</h1>
+            
+            {% assign modules = site.modules | where:"year",page.year %}
+            {% assign modules = modules | group_by:"term" %}
+            {% for term in modules %}
+            <h2>{{term.name}}</h2>
+            {% for module in term.items %}
+                <h3><a href="{{module.url}}">{{module.title}}</a>{% if module.description %} - {{ module.description }}{% endif %}</h3>
+            {% endfor %}
+            {% endfor %}
+            {{ content }}
+            
+            {% include {{ page.footer | default:"footer/footer.html" }} %}
+        </section>        
+    </body>
+</html>

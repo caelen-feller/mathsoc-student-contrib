@@ -1,0 +1,11 @@
+<section class="page-header">
+    <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+    
+    {% assign sorted-pages = site.pages | sort:page.menu-sort-key %}
+    {% for item in site.pages %}
+    {% if item.type == page.menu-page-type %}
+        <a href="{{ item.url }}" class="btn">{{item.title}}</a>
+    {% endif %}
+    {% endfor %}
+</section>

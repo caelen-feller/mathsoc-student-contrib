@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    {% include {{ page.head | default:"head/head.html" }} %}
+    <body>
+        {% include {{ page.header | default:"header/header.html" }} %}
+
+        <section class="main-content">
+            {{ content }}
+
+            {% include {{ page.footer | default:"footer/footer.html" }} %}
+        </section>        
+    </body>
+</html>

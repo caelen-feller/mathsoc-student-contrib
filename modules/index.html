@@ -1,0 +1,20 @@
+---
+layout: default
+description: "Index of all Modules"
+header: header/menu-header.html
+type: page
+menu-page-type: module-year
+menu-sort-key: year
+---
+
+{% assign modules = site.modules | group_by:"year" %}
+{% for year in modules %}
+    <h2>Year {{ year.name }}</h2>
+    {% assign year-group = year.items | group_by:"term" %}
+    {% for term in year-group %}
+    <h3>{{term.name}}</h3>
+    {% for module in term.items %}
+        <h4><a href="{{module.url}}">{{module.title}}</a>{% if module.description %} - {{ module.description }}{% endif %}</h4>
+    {% endfor %}
+    {% endfor %}
+{% endfor %}
