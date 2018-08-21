@@ -1,15 +1,17 @@
 # Contributing
 In general, if you don't know how to use [Markdown][md-doc], [open an issue][new-issue] and tag it as a new feature. Markdown is quick to learn, but don't worry if you don't know how to format it, just adding content is useful! 
 
-If you do know how to use markdown, but don't know how to use Jekyll, follow the same procedure, and if you feel up to a pull request put the files in the structure you want them to appear on the site. A file at folder/filename.md will be served at student.mathsoc.ie/folder/filename/ .
+If you do know how to use markdown, but don't know how to use Jekyll, follow the same procedure, and if you feel up to a pull request put the files in the structure you want them to appear on the site. A file at `folder/filename.md` will be served at `student.mathsoc.ie/folder/filename/` .
 
-For more specific contributions, read below.
+For more specific details, read below.
 
 ## Add a Module
 
 ### New Module
 
 To add a new module, [open an issue][new-mod] and/or [submit a pull request][pull] against your own fork of the repository, and link the pull request to the issue.
+
+Modules are stored in `_modules/`, and can be edited or created following the examples which exist
 
 Adding an issue will open discussion on the module, with the info you provide, so that others can also contribute in the creation of the page.
 
@@ -28,10 +30,30 @@ To update a current module, you can [submit a pull request][pull] with the updat
   - Provide solutions to homework or exams, if you've been given permission as before. 
 
 ### Don't
+
   - Provide solutions or direct transcriptions without permission. 
   - Provide links to stolen books. 
   - Link to a personal page here and expect it to be put on the site ( unless there's a good reason )
   - Violate the previous guidelines by linking to a site which does.
+
+## Jekyll
+
+If you want to build the site locally, install [Ruby](https://www.ruby-lang.org/en/) and do the following:
+
+```sh
+git clone https://github.com/du-mathsoc/student-contrib.git
+cd student-contrib
+
+gem install bundler
+# You may need to add ~/.gem/ruby/(ruby-version)/bin/ to your path
+
+bundle install --path vendor/bundle
+
+bundle exec jekyll serve
+
+# Browse to http://localhost:4000
+
+```
 
 [md-doc]: https://daringfireball.net/projects/markdown/syntax "Markdown Documentation"
 [new-issue]: https://github.com/du-mathsoc/student-contrib/issues/new/choose "New Issue"
