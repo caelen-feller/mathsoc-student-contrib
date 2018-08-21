@@ -1,6 +1,6 @@
 theme: jekyll-theme-cayman
 permalink: pretty
-exclude: [README.md, vendor, Gemfile, Gemfile.lock]
+exclude: [README.md, Contributing.md, vendor, Gemfile, Gemfile.lock]
 title: "Mathsoc Wiki"
 future: true
 
