@@ -1,5 +1,4 @@
 ---
-title: "Mathsoc Wiki"
 ---
 # Mathsoc Student Contributions
 Unofficial, student created content for those taking modules provided by the 
