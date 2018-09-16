@@ -14,6 +14,9 @@ term: Michaelmas
 ### Book Recommendations
 
 #### Elementary Linear Algebra
-**Author**: Anton & Rorres 
+
+**Author:** Anton & Rorres
+
 #### Algebra
-**Author**: Michael Artin
+
+**Author:** Michael Artin
