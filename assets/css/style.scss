@@ -4,5 +4,5 @@
 @import "{{ site.theme }}";
 
 header {
-  background-image: url('https://mathsoc.ie/wp-content/uploads/2018/09/homepage-bg.jpg');
+  background-image: url('{{ site.baseurl }}/homepage-bg.jpg');
 }
