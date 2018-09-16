@@ -9,4 +9,4 @@ term: Hilary
 | Lecturer(s)  | Website |
 | ------------- | ------------- |
 | Current Lecturer | [Donal O'Donovan](https://www.maths.tcd.ie/~don/) |
-|  Past Lecturer |  [Donal O'Donovan](https://www.maths.tcd.ie/~don/) |
+|  Past Lecturer |  [n/a](https://www.maths.tcd.ie/) |
