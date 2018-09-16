@@ -1,5 +1,5 @@
 ---
-title: "MA1111 Linear Algebra II"
+title: "MA1112 Linear Algebra II"
 year: 1
 term: Hilary
 ---
