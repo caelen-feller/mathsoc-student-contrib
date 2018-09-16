@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-@top-center {
-          background: url('https://mathsoc.ie/wp-content/uploads/2018/09/homepage-bg.jpg') no-repeat 0 0;
-        background-size: 10%;
-    }
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  background-color: $header-bg-color;
+  background-image: url('https://mathsoc.ie/wp-content/uploads/2018/09/homepage-bg.jpg');
