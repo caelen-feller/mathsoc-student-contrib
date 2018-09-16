@@ -3,8 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
-  color: $header-heading-color;
-  text-align: center;
-  background-color: $header-bg-color;
+header {
   background-image: url('https://mathsoc.ie/wp-content/uploads/2018/09/homepage-bg.jpg');
+}
