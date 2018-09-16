@@ -14,9 +14,16 @@ term: Michaelmas
 ### Book Recommendations
 
 #### Calculus, Early Transcendentals
+
 **Author**: Anton, Bivens, & Davis
+
 **Publisher** Wiley & Son
+
+
 #### Calculus
 **Author**: James Stewart
+
+
 #### Calculus
+
 **Author** Michael Spivak
