@@ -9,7 +9,7 @@ term: Michaelmas
 | Lecturer(s)  | Website |
 | ------------- | ------------- |
 | Current Lecturer | [Paschalis 'Pete' Karageorgis](https://www.maths.tcd.ie/~pete/) |
-|  Past Lecturer |  [Dónal O'Donovan](https://www.maths.tcd.ie/~don/) |
+|  Past Lecturer |  [Donal O'Donovan](https://www.maths.tcd.ie/~don/) |
 
 ### Book Recommendations
 
