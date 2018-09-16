@@ -15,15 +15,15 @@ term: Michaelmas
 
 #### Calculus, Early Transcendentals
 
-**Author**: Anton, Bivens, & Davis
+**Author:** Anton, Bivens, & Davis
 
-**Publisher** Wiley & Son
-
-
-#### Calculus
-**Author**: James Stewart
+**Publisher:** Wiley & Son
 
 
 #### Calculus
+**Author:** James Stewart
 
-**Author** Michael Spivak
+
+#### Calculus
+
+**Author:** Michael Spivak
