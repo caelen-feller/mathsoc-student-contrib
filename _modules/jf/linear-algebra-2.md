@@ -3,7 +3,7 @@ title: "MA1112 Linear Algebra II"
 year: 1
 term: Hilary
 ---
-## Linear Algebra II - MA1112
+## Linear Algebra II (MA1112)
 ### Module Websites
 
 | Lecturer(s)  | Website |
