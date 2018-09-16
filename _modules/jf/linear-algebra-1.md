@@ -3,7 +3,7 @@ title: "MA1111 Linear Algebra I"
 year: 1
 term: Michaelmas
 ---
-## Linear Algebra I - MA1111
+## Linear Algebra I (MA1111)
 ### Module Websites
 
 | Lecturer(s)  | Website |
