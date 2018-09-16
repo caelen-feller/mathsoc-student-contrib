@@ -1,4 +1,4 @@
-:---
+---
 title: "MA1213 Introduction to Group Theory"
 year: 1
 term: Michaelmas
