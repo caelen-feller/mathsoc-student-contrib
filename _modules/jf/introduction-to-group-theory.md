@@ -9,7 +9,7 @@ term: Michaelmas
 | Lecturer(s)  | Website |
 | ------------- | ------------- |
 | Current Lecturer | [Dmitri Zaitsev](https://www.maths.tcd.ie/~zaitsev/) |
-|  Past Lecturer |  [n/a](https://www.maths.tcd.ie/~/) |
+|  Past Lecturer |  [Colm Ó Dunlaing](https://www.maths.tcd.ie/~odunlain/) |
 
 ### Book Recommendations
 
