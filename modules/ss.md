@@ -1,4 +1,4 @@
 ---
-title: "Senior Sophistor Modules"
+title: "Senior Sophister Modules"
 year: 4
 ---
